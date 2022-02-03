@@ -1,0 +1,265 @@
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+$whiteColor: #fff;
+$transition: .2s linear;
+$titleColor: #3a3a3a;
+$linksColor: #7f7f7f;
+
+.App {
+  font-family: 'Roboto', sans-serif;
+
+
+  // HEADER ---- (START) ----------------
+
+
+  header {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    color: $whiteColor;
+    .bg_block {
+      background-image: url('./components/Header/img/bg.jpg');
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+    }
+    nav {
+      position: absolute;
+      inset: 0;
+      width: 70%;
+      height: 100px;
+      margin: 0 auto;
+      display: flex;    
+      justify-content: space-between;  
+      align-items: center;
+      z-index: 2;
+      .logo {
+        height: 40px;
+        padding: 10px 7px;
+        cursor: pointer;
+        border: 1px solid;
+        border-radius: 2px;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        li {
+          position: relative;
+          font-size: 18px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+        li::after {
+          content: '';
+          position: absolute;
+          height: 2px;
+          left:0;
+          top: 14px;
+          width: 100%;
+          background-color: $whiteColor;
+          opacity: 0;
+          transition: $transition;
+        }
+        li:hover::after {
+          opacity: 1;
+          top: 23px;
+        }
+        li:not(:last-child) {
+          margin-right: 30px;
+        }
+      }
+    }
+    .text_center {
+      position: absolute;
+      inset: 0;
+      margin: 0 auto;
+      height: 700px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      h1 {
+        font-weight: 300;
+        font-size: 3em;
+      }
+    }
+  }
+
+
+  // HEADER ---- (END) ------------------
+
+
+  // MAIN ---- (START) ------------------
+
+
+  main {
+    .popular_tutorial {
+      background-color: #f8f9fa;
+     
+      .container {
+        .inner_block {
+          display: flex;
+          .popular_left_block {
+            position: relative;
+            margin-top: -100px;
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            box-shadow: -5px 20px 40px -10px rgb(240, 240, 240);
+            margin-right: 40px;
+            z-index: 2;
+            .img_tutorial {
+              width: 260px;
+              height: 260px;
+              margin: 20px
+            }
+            .type {
+              font-weight: 600;
+              font-size: 14px;
+              color: #0779e4;
+              text-transform: uppercase;
+            }
+            .name_tutorial {
+              font-size: 24px;
+            }
+            .description {
+              color: #364d59;
+              line-height: 18px;
+              font-weight: 300;
+            }
+            img {
+              margin: 4px;
+            }
+            .sub_text {
+              margin-top: 30px;
+              color:#ccc;
+              font-weight: 300;
+              span {
+                padding: 0 4px;
+              }
+            }
+          }
+          .popular_right_block {
+            width: 45%;
+            position: relative;
+            margin-top: -100px;
+            background-color: #fff;
+            padding: 40px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            z-index: 2;
+            box-shadow: -5px 20px 40px -10px rgb(240, 240, 240);
+            .card {
+              padding: 5px;
+              display: flex;
+              align-items: center;
+              img {
+                margin-right: 20px;
+                width: 80px;
+                height: 80px;
+              }
+              .type {
+                margin: 0 0 5px;
+                font-weight: 600;
+                font-size: 14px;
+                color: #0779e4;
+                text-transform: uppercase;
+              }
+              .description {
+                font-weight: 300;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  // MAIN ---- (END) --------------------
+
+
+
+  // FOOTER ---- (START) ----------------
+
+  footer {
+    padding: 100px 0;
+    .footer_inner_block {
+      .footer_info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .footer_info_left_side {
+          width: 220px;
+          .title {
+            margin-top: 33px;
+            color: $titleColor;
+            font-size: 24px;
+          }
+          .info {
+            color: $linksColor;
+            margin: 20px 0;
+          }
+          svg {
+            width: 40px;
+            height: 40px;
+            margin: 0 2px;
+            fill: #0978e4;
+          }
+        }
+        .footer_info_right_side {
+          display: flex;
+          flex-wrap: wrap;
+          .nav_links {
+            margin: 20px 20px;
+            padding: 0 20px;
+            width: 150px;
+            .title {
+              margin-bottom: 20px;
+              color: $titleColor;
+              font-size: 18px;
+            }
+            ul {
+              margin: 0;
+              padding: 0;
+              list-style: none;
+              li {
+                a {
+                  text-decoration: none;
+                  color: $linksColor;
+                  line-height: 35px;
+                  transition: $transition;
+                }
+                a:hover {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .copyright {
+      margin-top: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        text-align: center;
+        color: #364c59;
+      }
+      img {
+        margin: 0 0 5px 10px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  // FOOTER ---- (END) ------------------
+}
