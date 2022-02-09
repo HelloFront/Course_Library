@@ -1,4 +1,4 @@
-
+### `PET Project with React, React-Redux, React-Router-Dom, SCSS`
 
 In the project directory, you can run:
 
