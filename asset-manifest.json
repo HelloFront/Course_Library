@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.58ba4638.css",
-    "main.js": "/static/js/main.a968a793.js",
-    "static/media/bg.jpg": "/static/media/bg.a1514edbe94a90fd334c.jpg",
-    "static/media/icon_tutorial.jpg": "/static/media/icon_tutorial.a68f281e524605eec964.jpg",
-    "static/media/icon_tutorial1.webp": "/static/media/icon_tutorial1.8593e83a80ea2fc5a918.webp",
-    "static/media/icon_tutorial2.webp": "/static/media/icon_tutorial2.ff89ad554656b2a548b3.webp",
-    "static/media/icon_tutorial3.webp": "/static/media/icon_tutorial3.3eba14f716a94512fbcb.webp",
-    "static/media/react_logo.svg": "/static/media/react_logo.d3accd99dc7c2ba6f5576ebcda31e95f.svg",
-    "static/media/js_logo.svg": "/static/media/js_logo.ca79d16262e37bb6ae8789b03533f41f.svg",
-    "static/media/logo.svg": "/static/media/logo.d2131259c5930cd3f36adadfb467ffe2.svg",
-    "static/media/github.svg": "/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
-    "index.html": "/index.html",
-    "main.58ba4638.css.map": "/static/css/main.58ba4638.css.map",
-    "main.a968a793.js.map": "/static/js/main.a968a793.js.map"
+    "main.css": "/Course_Library/static/css/main.45289f8d.css",
+    "main.js": "/Course_Library/static/js/main.a0a33a5d.js",
+    "static/media/bg.jpg": "/Course_Library/static/media/bg.a1514edbe94a90fd334c.jpg",
+    "static/media/icon_tutorial.jpg": "/Course_Library/static/media/icon_tutorial.a68f281e524605eec964.jpg",
+    "static/media/icon_tutorial1.webp": "/Course_Library/static/media/icon_tutorial1.8593e83a80ea2fc5a918.webp",
+    "static/media/icon_tutorial2.webp": "/Course_Library/static/media/icon_tutorial2.ff89ad554656b2a548b3.webp",
+    "static/media/icon_tutorial3.webp": "/Course_Library/static/media/icon_tutorial3.3eba14f716a94512fbcb.webp",
+    "static/media/react_logo.svg": "/Course_Library/static/media/react_logo.d3accd99dc7c2ba6f5576ebcda31e95f.svg",
+    "static/media/js_logo.svg": "/Course_Library/static/media/js_logo.ca79d16262e37bb6ae8789b03533f41f.svg",
+    "static/media/logo.svg": "/Course_Library/static/media/logo.d2131259c5930cd3f36adadfb467ffe2.svg",
+    "static/media/github.svg": "/Course_Library/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
+    "index.html": "/Course_Library/index.html",
+    "main.45289f8d.css.map": "/Course_Library/static/css/main.45289f8d.css.map",
+    "main.a0a33a5d.js.map": "/Course_Library/static/js/main.a0a33a5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.58ba4638.css",
-    "static/js/main.a968a793.js"
+    "static/css/main.45289f8d.css",
+    "static/js/main.a0a33a5d.js"
   ]
 }
