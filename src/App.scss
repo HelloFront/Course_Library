@@ -48,13 +48,15 @@ $linksColor: #7f7f7f;
         margin: 0;
         list-style: none;
         display: flex;
-        li {
+        .link {
+          color: $whiteColor;
+          text-decoration: none;
           position: relative;
           font-size: 18px;
           text-transform: uppercase;
           cursor: pointer;
         }
-        li::after {
+        .link::after {
           content: '';
           position: absolute;
           height: 2px;
@@ -65,7 +67,19 @@ $linksColor: #7f7f7f;
           opacity: 0;
           transition: $transition;
         }
-        li:hover::after {
+
+        .link.active::after {
+          content: '';
+          position: absolute;
+          height: 2px;
+          left:0;
+          top: 23px;
+          width: 100%;
+          background-color: $whiteColor;
+          opacity: 1;
+          transition: $transition;
+        }
+        .link:hover::after {
           opacity: 1;
           top: 23px;
         }
