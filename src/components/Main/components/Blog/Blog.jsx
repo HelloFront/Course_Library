@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default class Blog extends React.Component {
+export default class BlogPage extends React.Component {
   render() {
     return(
       <>

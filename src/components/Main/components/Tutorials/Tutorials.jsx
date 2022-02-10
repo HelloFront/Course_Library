@@ -1,10 +1,11 @@
 import React from 'react';
+import Tutorials from '../UI/Tutorials';
 
-export default class Tutorials extends React.Component {
+export default class TutorialsPage extends React.Component {
   render() {
     return(
       <>
-       <h1>Tutorials</h1>
+       <Tutorials/>
       </>
     )
   }
