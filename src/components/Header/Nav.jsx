@@ -18,8 +18,8 @@ class Nav extends React.Component {
         <div className="nav_links">
           <ul>
             <li><Link 
-              className={pathname === '/Course_Library/' ? 'link active' : 'link'} 
-              to='/Course_Library/' 
+              className={pathname === '/Course_Library' ? 'link active' : 'link'} 
+              to='/Course_Library' 
             >Главная</Link></li>
             <li><Link 
               className={pathname === '/Course_Library/tutorials' ? 'link active' : 'link'} 
