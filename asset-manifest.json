@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Course_Library/static/css/main.f120875b.css",
-    "main.js": "/Course_Library/static/js/main.731a84e3.js",
+    "main.js": "/Course_Library/static/js/main.04458856.js",
     "static/media/bg.jpg": "/Course_Library/static/media/bg.a1514edbe94a90fd334c.jpg",
     "static/media/icon_tutorial.jpg": "/Course_Library/static/media/icon_tutorial.a68f281e524605eec964.jpg",
     "static/media/icon_tutorial1.webp": "/Course_Library/static/media/icon_tutorial1.8593e83a80ea2fc5a918.webp",
@@ -18,10 +18,10 @@
     "static/media/angular_icon.svg": "/Course_Library/static/media/angular_icon.24c036287758115b5a879c56baa116f8.svg",
     "static/media/vue_icon.svg": "/Course_Library/static/media/vue_icon.9a20a4359dcefcd2cffbcb8a3baffacf.svg",
     "main.f120875b.css.map": "/Course_Library/static/css/main.f120875b.css.map",
-    "main.731a84e3.js.map": "/Course_Library/static/js/main.731a84e3.js.map"
+    "main.04458856.js.map": "/Course_Library/static/js/main.04458856.js.map"
   },
   "entrypoints": [
     "static/css/main.f120875b.css",
-    "static/js/main.731a84e3.js"
+    "static/js/main.04458856.js"
   ]
 }
