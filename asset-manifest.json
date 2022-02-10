@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/Course_Library/static/css/main.45289f8d.css",
-    "main.js": "/Course_Library/static/js/main.a0a33a5d.js",
+    "main.css": "/Course_Library/static/css/main.f120875b.css",
+    "main.js": "/Course_Library/static/js/main.731a84e3.js",
     "static/media/bg.jpg": "/Course_Library/static/media/bg.a1514edbe94a90fd334c.jpg",
     "static/media/icon_tutorial.jpg": "/Course_Library/static/media/icon_tutorial.a68f281e524605eec964.jpg",
     "static/media/icon_tutorial1.webp": "/Course_Library/static/media/icon_tutorial1.8593e83a80ea2fc5a918.webp",
     "static/media/icon_tutorial2.webp": "/Course_Library/static/media/icon_tutorial2.ff89ad554656b2a548b3.webp",
     "static/media/icon_tutorial3.webp": "/Course_Library/static/media/icon_tutorial3.3eba14f716a94512fbcb.webp",
     "static/media/react_logo.svg": "/Course_Library/static/media/react_logo.d3accd99dc7c2ba6f5576ebcda31e95f.svg",
+    "static/media/person1.webp": "/Course_Library/static/media/person1.ae91cdf93f8a38da318d.webp",
+    "static/media/photoshop_icon.svg": "/Course_Library/static/media/photoshop_icon.be53e40005799620317c6c8d9a831fe9.svg",
     "static/media/js_logo.svg": "/Course_Library/static/media/js_logo.ca79d16262e37bb6ae8789b03533f41f.svg",
+    "static/media/illustrator_icon.svg": "/Course_Library/static/media/illustrator_icon.1f3861706a7d2ed6dadb28b57f533d3a.svg",
     "static/media/logo.svg": "/Course_Library/static/media/logo.d2131259c5930cd3f36adadfb467ffe2.svg",
     "static/media/github.svg": "/Course_Library/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/Course_Library/index.html",
-    "main.45289f8d.css.map": "/Course_Library/static/css/main.45289f8d.css.map",
-    "main.a0a33a5d.js.map": "/Course_Library/static/js/main.a0a33a5d.js.map"
+    "static/media/angular_icon.svg": "/Course_Library/static/media/angular_icon.24c036287758115b5a879c56baa116f8.svg",
+    "static/media/vue_icon.svg": "/Course_Library/static/media/vue_icon.9a20a4359dcefcd2cffbcb8a3baffacf.svg",
+    "main.f120875b.css.map": "/Course_Library/static/css/main.f120875b.css.map",
+    "main.731a84e3.js.map": "/Course_Library/static/js/main.731a84e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.45289f8d.css",
-    "static/js/main.a0a33a5d.js"
+    "static/css/main.f120875b.css",
+    "static/js/main.731a84e3.js"
   ]
 }
