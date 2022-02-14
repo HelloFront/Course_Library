@@ -1,16 +1,11 @@
 import React from 'react';
 import logo from './img/logo.svg';
 import { NavLink } from 'react-router-dom';
-import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 
 class Nav extends React.Component {
-  componentDidMount() {
-    this.setState({activePage: this.props.location.pathname})
-  }
 
   render() {
-    const { pathname } = this.props.location
     
     return ( 
       <nav>
@@ -58,5 +53,4 @@ const mapStateToProps = state => {
   return state
 }
 
-const withRouterComponent = withRouter(Nav)
-export default connect(mapStateToProps)(withRouterComponent);
+export default connect(mapStateToProps)(Nav);
