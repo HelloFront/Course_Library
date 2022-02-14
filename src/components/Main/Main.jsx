@@ -12,11 +12,11 @@ const Main = () => {
     <main>
       <Switch>
         <Route exact path='/Course_Library/' component={HomePage}/>
-        <Route path='/Course_Library/tutorials' component={TutorialsPage}/>
-        <Route path='/Course_Library/about' component={AboutPage}/>
-        <Route path='/Course_Library/blog' component={BlogPage}/>
-        <Route path='/Course_Library/contact' component={ContactPage}/>
-        <Route path='/Course_Library/testimonials' component={TestimonialsPage}/>
+        <Route path='/tutorials' component={TutorialsPage}/>
+        <Route path='/about' component={AboutPage}/>
+        <Route path='/blog' component={BlogPage}/>
+        <Route path='/contact' component={ContactPage}/>
+        <Route path='/testimonials' component={TestimonialsPage}/>
       </Switch>
     </main>
    );

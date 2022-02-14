@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './img/logo.svg';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 
@@ -17,30 +17,36 @@ class Nav extends React.Component {
         <img className="logo" src={logo} alt="logo" />
         <div className="nav_links">
           <ul>
-            <li><Link 
-              className={pathname === '/Course_Library/' || '/Course_Library/' ? 'link active' : 'link'} 
+            <li><NavLink 
+              className='link'
+              activeClassName='link active' 
               to='/Course_Library/' 
-            >Главная</Link></li>
-            <li><Link 
-              className={pathname === '/Course_Library/tutorials' ? 'link active' : 'link'} 
-              to='/Course_Library/tutorials' 
-            >Учебники</Link></li>
-            <li><Link 
-              className={pathname === '/Course_Library/testimonials' ? 'link active' : 'link'} 
-              to='/Course_Library/testimonials'  
-            >Отзывы</Link></li>
-            <li><Link 
-              className={pathname === '/Course_Library/blog' ? 'link active' : 'link'}  
-              to='/Course_Library/blog' 
-            >Блог</Link></li>
-            <li><Link 
-              className={pathname === '/Course_Library/about' ? 'link active' : 'link'} 
-              to='/Course_Library/about' 
-            >Об нас</Link></li>
-            <li><Link 
-              className={pathname === '/Course_Library/contact' ? 'link active' : 'link'} 
-              to='/Course_Library/contact' 
-            >Контакты</Link></li>
+            >Главная</NavLink></li>
+            <li><NavLink 
+              className='link'
+              activeClassName='link active' 
+              to='/tutorials' 
+            >Учебники</NavLink></li>
+            <li><NavLink 
+              className='link'
+              activeClassName='link active'  
+              to='/testimonials'  
+            >Отзывы</NavLink></li>
+            <li><NavLink 
+              className='link'
+              activeClassName='link active'  
+              to='/blog' 
+            >Блог</NavLink></li>
+            <li><NavLink 
+              className='link'
+              activeClassName='link active'  
+              to='/about' 
+            >Об нас</NavLink></li>
+            <li><NavLink 
+              className='link'
+              activeClassName='link active' 
+              to='/contact' 
+            >Контакты</NavLink></li>
           </ul>
         </div>
       </nav>
